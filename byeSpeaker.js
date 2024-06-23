@@ -10,5 +10,5 @@ var byeSpeaker = (function (window) {
 
 })(window);
 
-byeSpeaker.speak("qaswar"); 
-byeSpeaker.speak("joseph"); 
+byeSpeaker.speak("Alice"); // Output: Goodbye Alice
+byeSpeaker.speak("Bob"); // Output: Goodbye Bob
