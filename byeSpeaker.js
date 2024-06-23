@@ -1,6 +1,4 @@
-// byeSpeaker.js
-
-(function (window) {
+var byeSpeaker = (function (window) {
     var byeSpeaker = {};
     var speakWord = "Goodbye";
 
@@ -8,6 +6,9 @@
         console.log(speakWord + " " + name);
     }
 
-    window.byeSpeaker = byeSpeaker;
+    return byeSpeaker;
 
 })(window);
+
+byeSpeaker.speak("qaswar"); 
+byeSpeaker.speak("joseph"); 
